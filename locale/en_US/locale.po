@@ -39,3 +39,6 @@ msgstr "Show PlumX badge"
 
 msgid "plugins.generic.badges.manager.settings.showBlockTitle"
 msgstr "Metrics"
+
+msgid "plugins.generic.badges.manager.settings.showHera"
+msgstr "Adds HERA badges to article page"

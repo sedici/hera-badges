@@ -39,3 +39,6 @@ msgstr "Mostrar el badge de PlumX Analytics"
 
 msgid "plugins.generic.badges.manager.settings.showBlockTitle"
 msgstr "Métrica"
+
+msgid "plugins.generic.badges.manager.settings.showHera"
+msgstr "Mostrar el badge de HERA"

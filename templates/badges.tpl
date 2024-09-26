@@ -12,7 +12,14 @@
 <div class="item badges">
         <h2 class="label">{translate key="plugins.generic.badges.manager.settings.showBlockTitle"}</h2>
         {if $doi}
-            
+
+            {if $showHera} 
+                <div class="sub_item">
+                    <script type='text/javascript' src='https://hera.sedici.unlp.edu.ar/conector/built.min.js'></script>
+                    <span class="HeraConnector" doi="{$doi}" data-style="small_circle"></span>
+                </div>
+            {/if}
+
             {if $showDimensions}        
             <div class="sub_item">
                 <span class="__dimensions_badge_embed__" data-doi="{$doi|escape}" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
