@@ -32,6 +32,10 @@ class BadgesPlugin extends GenericPlugin {
 			// Insert Badges div
 			HookRegistry::register('Templates::Article::Details', array($this, 'addBadges'));
 			HookRegistry::register('Templates::Preprint::Details', array($this, 'addBadges'));
+
+			$this->import('BadgesBlockPlugin');
+			PluginRegistry::register('blocks', new BadgesBlockPlugin($this), $this->getPluginPath());
+
 		}
 		return $success;
 	}
