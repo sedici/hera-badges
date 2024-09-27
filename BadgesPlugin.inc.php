@@ -83,7 +83,6 @@ class BadgesPlugin extends GenericPlugin {
 		$output =& $params[2];
 
 		$doi = $this->getPubId($smarty);
-		$doi = '10.24215/2422572Xe170';
 		$smarty->assign('doi', $doi);
 
 		$badgesShowDimensions = $this->getSetting($context->getId(), 'badgesShowDimensions');

@@ -66,8 +66,8 @@ class BadgesBlockPlugin extends BLockPlugin {
 	 * @see BlockPlugin::getContents
 	 */
 	public function getContents($templateMgr, $request = null) {
-		
-		$issn = '1850-468X';
+		$context = $request->getContext();
+		$issn = $context->getData('onlineIssn');
 		$templateMgr->assign([
 			'issn' => $issn,
 		  ]);
