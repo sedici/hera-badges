@@ -92,7 +92,6 @@ class BadgesPlugin extends GenericPlugin {
 		$output =& $params[2];
 
 		$doi = $this->getPubId($smarty);
-		$doi = '10.24215/23143738e136 ';
 		$smarty->assign('doi', $doi);
 
 		$showHeraArticle = $this->getSetting($context->getId(), 'showHeraArticle');
