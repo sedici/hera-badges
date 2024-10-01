@@ -14,31 +14,22 @@ msgstr ""
 "X-Generator: Poedit 2.3\n"
 
 msgid "plugins.generic.badges.displayName"
-msgstr "Módulo de Badges de Altmetrics"
+msgstr "Módulo de Hera"
 
 msgid "plugins.generic.badges.description"
-msgstr "Incorpora marcas con altmétricas en la página de los artículos"
+msgstr "Incorpora Hera para obtener información sobre la calidad y el impacto del recurso académico en cuestión"
 
 msgid "plugins.generic.badges.manager.settings.description"
-msgstr "Permite mostrar los sellos (badges) con altmetrics de Dimensions, Altmetric.com y PlumX Analytics"
+msgstr "Permite a hera mostrar información de cada artículo con DOI o de la revista si esta posee ISSN (online) "
 
 msgid "plugins.generic.badges.settings"
 msgstr "Ajustes"
 
-msgid "plugins.generic.badges.manager.settings.showDimensions"
-msgstr "Mostrar el badge de Dimensions"
-
-msgid "plugins.generic.badges.manager.settings.showAltmetric"
-msgstr "Mostrar el badge de Altmetric"
-
-msgid "plugins.generic.badges.manager.settings.altmetricHideWhenEmpty"
-msgstr "Ocultar el badge de Altmetric si no hay datos para mostrar"
-
-msgid "plugins.generic.badges.manager.settings.showPlumx"
-msgstr "Mostrar el badge de PlumX Analytics"
-
 msgid "plugins.generic.badges.manager.settings.showBlockTitle"
-msgstr "Métrica"
+msgstr "Estadisticas de Hera para el articulo"
 
 msgid "plugins.generic.badges.manager.settings.showHera"
-msgstr "Mostrar el badge de HERA"
+msgstr "Mostrar HERA para los articulos, deben poseer DOI"
+
+msgid "plugins.generic.badges.manager.settings.showHeraJournal"
+msgstr "Mostrar HERA para la revista, debe tener ISSN"

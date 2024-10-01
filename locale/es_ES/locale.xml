@@ -15,13 +15,12 @@
   -->
  
 <locale name="es_ES" full_name="Español">
-  <message key="plugins.generic.badges.displayName">Plugin de marcas de altmetrics (Badges) </message>
-  <message key="plugins.generic.badges.description">Incorpora marcas con altmétricas en la página de los artículos</message>
-  <message key="plugins.generic.badges.manager.settings.description">Opciones del módulo de Badges</message>
-  <message key="plugins.generic.badges.settings">Seleccione el o los badges a mostrar</message>
-  <message key="plugins.generic.badges.manager.settings.showDimensions">Mostrar badge de Dimensions</message>
-  <message key="plugins.generic.badges.manager.settings.showAltmetric">Mostrar badge de Altmetric.com</message>
-  <message key="plugins.generic.badges.manager.settings.showPlumx">Mostrar badge de PlumX</message>
-  <message key="plugins.generic.badges.manager.settings.altmetricHideWhenEmpty">Ocultar el badge de Altmetric.com si no hay métricas</message>
-  <message key="plugins.generic.badges.manager.settings.showBlockTitle">Métrica</message>
+  <message key="plugins.generic.badges.displayName">Módulo de Hera </message>
+  <message key="plugins.generic.badges.description">Incorpora Hera para obtener información sobre la calidad y el impacto del recurso académico en cuestión</message>
+  <message key="plugins.generic.badges.manager.settings.description">Permite a hera mostrar información de cada artículo con DOI o de la revista si esta posee ISSN (online)</message>
+  <message key="plugins.generic.badges.settings">Ajustes</message>
+  <message key="plugins.generic.badges.manager.settings.showBlockTitle">Estadisticas de Hera para el articulo</message>
+  <message key="plugins.generic.badges.manager.settings.showHera">Mostrar HERA para los articulos, deben poseer DOI</message>
+  <message key="plugins.generic.badges.manager.settings.showHeraJournal">Mostrar HERA para la revista, debe tener ISSN</message>
 </locale>
+
