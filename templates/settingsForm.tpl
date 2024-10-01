@@ -29,20 +29,11 @@
 	{fbvFormArea id="badgesSettingsFormArea"}
 
 		{fbvFormSection list="true"}
-			{fbvElement type="checkbox" id="badgesShowDimensions" label="plugins.generic.badges.manager.settings.showDimensions" checked=$badgesShowDimensions|compare:true}
+			{fbvElement type="checkbox" id="showHeraArticle" label="plugins.generic.badges.manager.settings.showHera" checked=$showHeraArticle|compare:true}
 		{/fbvFormSection}
 
 		{fbvFormSection list="true"}
-			{fbvElement type="checkbox" id="badgesShowAltmetric" label="plugins.generic.badges.manager.settings.showAltmetric" checked=$badgesShowAltmetric|compare:true}
-			{fbvElement type="checkbox" id="badgesAltmetricHideWhenEmpty" label="plugins.generic.badges.manager.settings.altmetricHideWhenEmpty" checked=$badgesAltmetricHideWhenEmpty|compare:true}
-		{/fbvFormSection}
-
-		{fbvFormSection list="true"}
-			{fbvElement type="checkbox" id="badgesShowPlumx" label="plugins.generic.badges.manager.settings.showPlumx" checked=$badgesShowPlumx|compare:true}
-		{/fbvFormSection}
-
-		{fbvFormSection list="true"}
-			{fbvElement type="checkbox" id="badgesShowHera" label="plugins.generic.badges.manager.settings.showHera" checked=$badgesShowHera|compare:true}
+			{fbvElement type="checkbox" id="showHeraJournal" label="plugins.generic.badges.manager.settings.showHeraJournal" checked=$showHeraJournal|compare:true}
 		{/fbvFormSection}
 
 	{/fbvFormArea}

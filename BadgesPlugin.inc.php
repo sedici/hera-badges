@@ -27,15 +27,24 @@ class BadgesPlugin extends GenericPlugin {
 	 */
 	function register($category, $path, $mainContextId = NULL) {
 		$success = parent::register($category, $path);
+		
 		if (!Config::getVar('general', 'installed') || defined('RUNNING_UPGRADE')) return true;
+		
+		$context = $this->getRequest()->getContext();
+
 		if ($success && $this->getEnabled()) {
-			// Insert Badges div
-			HookRegistry::register('Templates::Article::Details', array($this, 'addBadges'));
-			HookRegistry::register('Templates::Preprint::Details', array($this, 'addBadges'));
 
-			$this->import('BadgesBlockPlugin');
-			PluginRegistry::register('blocks', new BadgesBlockPlugin($this), $this->getPluginPath());
-
+			$showHeraArticle = $this->getSetting($context->getId(), 'showHeraArticle');
+			if ($showHeraArticle == "on"){
+				HookRegistry::register('Templates::Article::Details', array($this, 'addHeraArticleLevelMetrics'));
+				HookRegistry::register('Templates::Preprint::Details', array($this, 'addHeraArticleLevelMetrics'));
+			}
+			
+			$showHeraJournal = $this->getSetting($context->getId(), 'showHeraJournal');
+			if ($showHeraJournal == "on"){
+				$this->import('HeraBlockPlugin');
+				PluginRegistry::register('blocks', new HeraBlockPlugin($this), $this->getPluginPath());
+			}
 		}
 		return $success;
 	}
@@ -75,7 +84,7 @@ class BadgesPlugin extends GenericPlugin {
 	 * @param $hookName string
 	 * @param $params array
 	 */
-	function addBadges($hookName, $params) {
+	function addHeraArticleLevelMetrics($hookName, $params) {
 		$request = $this->getRequest();
 		$context = $request->getContext();
 
@@ -83,33 +92,19 @@ class BadgesPlugin extends GenericPlugin {
 		$output =& $params[2];
 
 		$doi = $this->getPubId($smarty);
+		$doi = '10.24215/23143738e136 ';
 		$smarty->assign('doi', $doi);
 
-		$badgesShowDimensions = $this->getSetting($context->getId(), 'badgesShowDimensions');
-		$badgesShowAltmetric = $this->getSetting($context->getId(), 'badgesShowAltmetric');
-		$badgesAltmetricHideWhenEmpty = $this->getSetting($context->getId(), 'badgesAltmetricHideWhenEmpty');
-		$badgesShowPlumx = $this->getSetting($context->getId(), 'badgesShowPlumx');
-		$badgesShowHera = $this->getSetting($context->getId(), 'badgesShowHera');
+		$showHeraArticle = $this->getSetting($context->getId(), 'showHeraArticle');
 
-		if ($badgesShowDimensions == "on")
-			$smarty->assign("showDimensions","true");
-
-		if ($badgesShowAltmetric == "on") {
-			$smarty->assign("showAltmetric","true");
-			$smarty->assign("badgesAltmetricHideWhenEmpty",  ( ($badgesAltmetricHideWhenEmpty == "on")? "true" : "false") );
-		}
-
-		if ($badgesShowPlumx == "on")
-			$smarty->assign("showPlumx","true");
-		
-		if ($badgesShowHera == "on")
-			$smarty->assign("showHera","true");	
+		if ($showHeraArticle == "on")
+			$smarty->assign("showHeraArticle","true");	
 
 		$output .= $smarty->fetch($this->getTemplateResource('badges.tpl'));
 		return false;		
 
 	}
-
+	
 	/**
 	 * @copydoc Plugin::getActions()
 	 */

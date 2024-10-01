@@ -44,11 +44,8 @@ class BadgesSettingsForm extends Form {
 	 */
 	function initData() {
 		$this->_data = array(
-            'badgesShowDimensions' => $this->_plugin->getSetting($this->_journalId, 'badgesShowDimensions'),
-            'badgesShowAltmetric' => $this->_plugin->getSetting($this->_journalId, 'badgesShowAltmetric'),
-			'badgesShowPlumx' => $this->_plugin->getSetting($this->_journalId, 'badgesShowPlumx'),
-			'badgesAltmetricHideWhenEmpty' => $this->_plugin->getSetting($this->_journalId, 'badgesAltmetricHideWhenEmpty'),
-			'badgesShowHera' => $this->_plugin->getSetting($this->_journalId, 'badgesShowHera'),
+			'showHeraJournal' => $this->_plugin->getSetting($this->_journalId, 'showHeraJournal'),
+			'showHeraArticle' => $this->_plugin->getSetting($this->_journalId, 'showHeraArticle'),
 		);
     }
 
@@ -56,11 +53,8 @@ class BadgesSettingsForm extends Form {
 	 * Assign form data to user-submitted data.
 	 */
 	function readInputData() {
-        $this->readUserVars(array('badgesShowDimensions'));
-        $this->readUserVars(array('badgesShowAltmetric'));
-		$this->readUserVars(array('badgesShowPlumx'));
-		$this->readUserVars(array('badgesAltmetricHideWhenEmpty'));
-		$this->readUserVars(array('badgesShowHera'));
+		$this->readUserVars(array('showHeraJournal'));
+		$this->readUserVars(array('showHeraArticle'));
 	
     }
     
@@ -86,11 +80,8 @@ class BadgesSettingsForm extends Form {
 		$plugin =& $this->_plugin;
 		$contextId = $this->_journalId;
 
-		$plugin->updateSetting($contextId, 'badgesShowDimensions', $this->getData('badgesShowDimensions'), 'string');
-		$plugin->updateSetting($contextId, 'badgesShowAltmetric', $this->getData('badgesShowAltmetric'), 'string');
-		$plugin->updateSetting($contextId, 'badgesShowPlumx', $this->getData('badgesShowPlumx'), 'string');
-		$plugin->updateSetting($contextId, 'badgesAltmetricHideWhenEmpty', $this->getData('badgesAltmetricHideWhenEmpty'), 'string');
-		$plugin->updateSetting($contextId, 'badgesShowHera', $this->getData('badgesShowHera'), 'string');
+		$plugin->updateSetting($contextId, 'showHeraJournal', $this->getData('showHeraJournal'), 'string');
+		$plugin->updateSetting($contextId, 'showHeraArticle', $this->getData('showHeraArticle'), 'string');
 
 		parent::execute(...$functionArgs);
 
