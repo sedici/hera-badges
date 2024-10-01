@@ -19,6 +19,12 @@ msgstr "Módulo de Hera"
 msgid "plugins.generic.badges.description"
 msgstr "Incorpora Hera para obtener información sobre la calidad y el impacto del recurso académico en cuestión"
 
+msgid "plugins.generic.badges.displayNameBlock"
+msgstr "Bloque de Hera"
+
+msgid "plugins.generic.badges.descriptionBlock"
+msgstr "Incorpora Hera para obtener información sobre la calidad y el impacto de la revista en la barrera laretal"
+
 msgid "plugins.generic.badges.manager.settings.description"
 msgstr "Permite a hera mostrar información de cada artículo con DOI o de la revista si esta posee ISSN (online) "
 
