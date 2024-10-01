@@ -18,7 +18,7 @@
 
 import('lib.pkp.classes.plugins.BlockPlugin');
 
-class BadgesBlockPlugin extends BLockPlugin {
+class HeraBlockPlugin extends BlockPlugin {
 	protected $_parentPlugin;
 
 	/**
@@ -36,7 +36,7 @@ class BadgesBlockPlugin extends BLockPlugin {
 	 * @return String name of plugin
 	 */
 	public function getName() {
-		return 'BadgesBlockPlugin';
+		return 'HeraBlockPlugin';
 	}
 
 	/**
