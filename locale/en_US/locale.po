@@ -14,13 +14,13 @@ msgstr ""
 "X-Generator: Poedit 2.3\n"
 
 msgid "plugins.generic.hera.displayName"
-msgstr "HERA Plugin Test"
+msgstr "HERA Plugin"
 
 msgid "plugins.generic.hera.description"
 msgstr "This plugin provides information about journal and articles' quality and impact."
 
 msgid "plugins.generic.hera.displayNameBlock"
-msgstr "HERA Block Test"
+msgstr "HERA Block"
 
 msgid "plugins.generic.hera.descriptionBlock"
 msgstr "This plugin provides information about journal's quality and impact in sidebar."
