@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @file plugins/block/badges/HeraBlockPlugin.inc.php
+ * @file plugins/block/hera/HeraBlockPlugin.inc.php
  * 
  * Copyright 2024 
  * Portal de Revistas de la Universidad Nacional de La Plata
@@ -10,8 +10,8 @@
  *
  * @author quedaporhacer
  *
- * @class hera
- * @ingroup plugins_block_dates
+ * @class HeraBlockPlugin
+ * @ingroup plugins_block_hera
  *
  * @brief hera plugin block
  */

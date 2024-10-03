@@ -1,19 +1,19 @@
 <?php
 
 /**
- * @file plugins/generic/badges/BadgesPlugin.inc.php
+ * @file plugins/generic/hera/HeraPlugin.inc.php
  * 
- * Copyright 2019 
+ * Copyright 2024 
  * Portal de Revistas de la Universidad Nacional de La Plata
  *  https://revistas.unlp.edu.ar 
  *  https://sedici.unlp.edu.ar
  *
- * @author gonetil
+ * @author quedaporhacer
  *
- * @class badges
- * @ingroup plugins_generic_dates
+ * @class HeraPlugin
+ * @ingroup plugins_generic_hera
  *
- * @brief badges plugin class
+ * @brief hera plugin class
  */
 
 import('lib.pkp.classes.plugins.GenericPlugin');

@@ -1,18 +1,19 @@
 <?php
 
 /**
- * @file plugins/generic/badges/BadgesSettingsForm.inc.php
+ * @file plugins/generic/hera/BadgesSettingsForm.inc.php
  *
- * Copyright 2019 
+ * Copyright 2024
  * Portal de Revistas de la Universidad Nacional de La Plata
  *  https://revistas.unlp.edu.ar 
  *  https://sedici.unlp.edu.ar
  *
- * @author gonetil *
+ * @author quedaporhacer
+ * 
  * @class BadgesSettingsForm
- * @ingroup plugins_generic_badges
+ * @ingroup plugins_generic_hera
  *
- * @brief Form for journal managers to modify Almetric Badges plugin options
+ * @brief Form for journal managers to modify hera plugin options
  */ 
 
 import('lib.pkp.classes.form.Form');
