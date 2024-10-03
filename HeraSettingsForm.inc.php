@@ -17,7 +17,7 @@
 
 import('lib.pkp.classes.form.Form');
 
-class BadgesSettingsForm extends Form {
+class HeraSettingsForm extends Form {
 
 	/** @var int */
 	var $_journalId;
@@ -34,7 +34,7 @@ class BadgesSettingsForm extends Form {
 		$this->_journalId = $journalId;
 		$this->_plugin = $plugin;
 
-		parent::__construct($plugin->getTemplateResource('settingsForm.tpl'));
+		parent::__construct($plugin->getTemplateResource('heraSettingsForm.tpl'));
 
 		$this->addCheck(new FormValidatorPost($this));
 		$this->addCheck(new FormValidatorCSRF($this));
