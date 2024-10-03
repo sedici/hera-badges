@@ -18,7 +18,7 @@
 
 import('lib.pkp.classes.plugins.GenericPlugin');
 
-class BadgesPlugin extends GenericPlugin {
+class HeraPlugin extends GenericPlugin {
 	/**
 	 * Called as a plugin is registered to the registry
 	 * @param $category String Name of category plugin was registered to
