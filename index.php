@@ -20,8 +20,8 @@
  *
  */
 
-require_once('BadgesPlugin.inc.php');
+require_once('HeraPlugin.inc.php');
 
-return new BadgesPlugin();
+return new HeraPlugin();
 
 ?>

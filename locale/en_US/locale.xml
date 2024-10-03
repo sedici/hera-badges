@@ -15,13 +15,13 @@
   -->
  
 <locale name="en_US" full_name="English">
-  <message key="plugins.generic.badges.displayNameBlock">HERA Block</message>
-  <message key="plugins.generic.badges.descriptionBlock">Incorporates HERA to provide information about the quality and impact of the journal in the lateral barrier</message>
-  <message key="plugins.generic.badges.displayName">HERA Module</message>
-  <message key="plugins.generic.badges.description">Incorporates HERA to provide information about the quality and impact of the academic resource in question</message>
-  <message key="plugins.generic.badges.manager.settings.description">Allows HERA to display information for each article with a DOI or for the journal if it has an ISSN (online)</message>
-  <message key="plugins.generic.badges.settings">Settings</message>
-  <message key="plugins.generic.badges.manager.settings.showBlockTitle">HERA statistics for the article</message>
-  <message key="plugins.generic.badges.manager.settings.showHera">Show HERA for articles, they must have DOI</message>
-  <message key="plugins.generic.badges.manager.settings.showHeraJournal">Show HERA for the journal, it must have an ISSN</message>
+  <message key="plugins.generic.hera.displayNameBlock">HERA Block</message>
+  <message key="plugins.generic.hera.descriptionBlock">Incorporates HERA to provide information about the quality and impact of the journal in the lateral barrier</message>
+  <message key="plugins.generic.hera.displayName">HERA Module</message>
+  <message key="plugins.generic.hera.description">Incorporates HERA to provide information about the quality and impact of the academic resource in question</message>
+  <message key="plugins.generic.hera.manager.settings.description">Allows HERA to display information for each article with a DOI or for the journal if it has an ISSN (online)</message>
+  <message key="plugins.generic.hera.settings">Settings</message>
+  <message key="plugins.generic.hera.manager.settings.showBlockTitle">HERA statistics for the article</message>
+  <message key="plugins.generic.hera.manager.settings.showHera">Show HERA for articles, they must have DOI</message>
+  <message key="plugins.generic.hera.manager.settings.showHeraJournal">Show HERA for the journal, it must have an ISSN</message>
 </locale>

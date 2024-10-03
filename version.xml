@@ -15,10 +15,10 @@
   * Plugin version information.
   -->
 <version>
-	<application>badges</application>
+	<application>hera</application>
 	<type>plugins.generic</type>
 	<release>1.0.0.0</release>
 	<date>2019-09-13</date>
 	<lazy-load>1</lazy-load>
-	<class>BadgesPlugin</class>
+	<class>HeraPlugin</class>
 </version>

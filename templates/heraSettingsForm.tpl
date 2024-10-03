@@ -11,9 +11,9 @@
  *
  *}
 <div id="badgesSettings">
-<div id="description">{translate key="plugins.generic.badges.manager.settings.description"}</div>
+<div id="description">{translate key="plugins.generic.hera.manager.settings.description"}</div>
 
-<h3>{translate key="plugins.generic.badges.settings"}</h3>
+<h3>{translate key="plugins.generic.hera.settings"}</h3>
 
 <script>
 	$(function() {ldelim}
@@ -29,11 +29,11 @@
 	{fbvFormArea id="badgesSettingsFormArea"}
 
 		{fbvFormSection list="true"}
-			{fbvElement type="checkbox" id="showHeraArticle" label="plugins.generic.badges.manager.settings.showHera" checked=$showHeraArticle|compare:true}
+			{fbvElement type="checkbox" id="showHeraArticle" label="plugins.generic.hera.manager.settings.showHera" checked=$showHeraArticle|compare:true}
 		{/fbvFormSection}
 
 		{fbvFormSection list="true"}
-			{fbvElement type="checkbox" id="showHeraJournal" label="plugins.generic.badges.manager.settings.showHeraJournal" checked=$showHeraJournal|compare:true}
+			{fbvElement type="checkbox" id="showHeraJournal" label="plugins.generic.hera.manager.settings.showHeraJournal" checked=$showHeraJournal|compare:true}
 		{/fbvFormSection}
 
 	{/fbvFormArea}

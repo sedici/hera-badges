@@ -13,29 +13,29 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 2.3\n"
 
-msgid "plugins.generic.badges.displayName"
-msgstr "HERA Plugin"
+msgid "plugins.generic.hera.displayName"
+msgstr "HERA Plugin Test"
 
-msgid "plugins.generic.badges.description"
+msgid "plugins.generic.hera.description"
 msgstr "This plugin provides information about journal and articles' quality and impact."
 
-msgid "plugins.generic.badges.displayNameBlock"
-msgstr "HERA Block"
+msgid "plugins.generic.hera.displayNameBlock"
+msgstr "HERA Block Test"
 
-msgid "plugins.generic.badges.descriptionBlock"
+msgid "plugins.generic.hera.descriptionBlock"
 msgstr "This plugin provides information about journal's quality and impact in sidebar."
 
-msgid "plugins.generic.badges.manager.settings.description"
+msgid "plugins.generic.hera.manager.settings.description"
 msgstr "Displays article and journal data provided by the HERA, requiring a DOI and Online ISSN, respectively"
 
-msgid "plugins.generic.badges.settings"
+msgid "plugins.generic.hera.settings"
 msgstr "Settings"
 
-msgid "plugins.generic.badges.manager.settings.showBlockTitle"
+msgid "plugins.generic.hera.manager.settings.showBlockTitle"
 msgstr "HERA statistics for the article"
 
-msgid "plugins.generic.badges.manager.settings.showHera"
+msgid "plugins.generic.hera.manager.settings.showHera"
 msgstr "Show HERA for articles, they must have DOI"
 
-msgid "plugins.generic.badges.manager.settings.showHeraJournal"
+msgid "plugins.generic.hera.manager.settings.showHeraJournal"
 msgstr "Show HERA for the journal, it must have an ISSN"

@@ -10,7 +10,7 @@
  *}
 <link rel="stylesheet" type="text/css" href="/plugins/generic/badges/styles/badges.css">
 <div class="item badges">
-        <h2 class="label">{translate key="plugins.generic.badges.manager.settings.showBlockTitle"}</h2>
+        <h2 class="label">{translate key="plugins.generic.hera.manager.settings.showBlockTitle"}</h2>
         {if $doi}
 
             {if $showHeraArticle} 

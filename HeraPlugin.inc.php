@@ -54,7 +54,7 @@ class HeraPlugin extends GenericPlugin {
 	 * @return string
 	 */
 	function getDisplayName() {
-		return __('plugins.generic.badges.displayName');
+		return __('plugins.generic.hera.displayName');
 	}
 
 	/**
@@ -62,7 +62,7 @@ class HeraPlugin extends GenericPlugin {
 	 * @return string
 	 */
 	function getDescription() {
-		return __('plugins.generic.badges.description');
+		return __('plugins.generic.hera.description');
 	}
 
 	private function getPubId($smarty) {
@@ -92,9 +92,9 @@ class HeraPlugin extends GenericPlugin {
 		$output =& $params[2];
 
 		$doi = $this->getPubId($smarty);
-
+		$doi = '10.24215/23143738e136 ';
 		$smarty->assign('doi', $doi);
-
+		
 		$showHeraArticle = $this->getSetting($context->getId(), 'showHeraArticle');
 
 		if ($showHeraArticle == "on")

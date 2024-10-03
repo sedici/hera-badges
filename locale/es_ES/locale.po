@@ -13,29 +13,29 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 2.3\n"
 
-msgid "plugins.generic.badges.displayName"
+msgid "plugins.generic.hera.displayName"
 msgstr "Módulo de Hera"
 
-msgid "plugins.generic.badges.description"
+msgid "plugins.generic.hera.description"
 msgstr "Incorpora Hera para obtener información sobre la calidad y el impacto del recurso académico en cuestión"
 
-msgid "plugins.generic.badges.displayNameBlock"
+msgid "plugins.generic.hera.displayNameBlock"
 msgstr "Bloque de Hera"
 
-msgid "plugins.generic.badges.descriptionBlock"
+msgid "plugins.generic.hera.descriptionBlock"
 msgstr "Incorpora Hera para obtener información sobre la calidad y el impacto de la revista en la barrera laretal"
 
-msgid "plugins.generic.badges.manager.settings.description"
+msgid "plugins.generic.hera.manager.settings.description"
 msgstr "Permite a hera mostrar información de cada artículo con DOI o de la revista si esta posee ISSN (online) "
 
-msgid "plugins.generic.badges.settings"
+msgid "plugins.generic.hera.settings"
 msgstr "Ajustes"
 
-msgid "plugins.generic.badges.manager.settings.showBlockTitle"
+msgid "plugins.generic.hera.manager.settings.showBlockTitle"
 msgstr "Estadisticas de Hera para el articulo"
 
-msgid "plugins.generic.badges.manager.settings.showHera"
+msgid "plugins.generic.hera.manager.settings.showHera"
 msgstr "Mostrar HERA para los articulos, deben poseer DOI"
 
-msgid "plugins.generic.badges.manager.settings.showHeraJournal"
+msgid "plugins.generic.hera.manager.settings.showHeraJournal"
 msgstr "Mostrar HERA para la revista, debe tener ISSN"
