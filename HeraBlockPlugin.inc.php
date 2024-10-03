@@ -51,7 +51,7 @@ class HeraBlockPlugin extends BlockPlugin {
 	 * @return string
 	 */
 	function getDisplayName() {
-		return __('plugins.block.badges.displayName');
+		return __('plugins.generic.badges.displayNameBlock');
 	}
 
 	/**
@@ -59,7 +59,7 @@ class HeraBlockPlugin extends BlockPlugin {
 	 * @return string
 	 */
 	function getDescription() {
-		return __('plugins.block.badges.description');
+		return __('plugins.generic.badges.descriptionBlock');
 	}
 
 	/**

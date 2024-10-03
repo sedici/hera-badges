@@ -3,25 +3,25 @@
 
 <!--
   * plugins/generic/badges/locale/en_US/locale.xml
- *
- * Copyright 2019 
- * Portal de Revistas de la Universidad Nacional de La Plata
- *  https://revistas.unlp.edu.ar 
- *  https://sedici.unlp.edu.ar
- *
- * @author gonetil
+  *
+  * Copyright 2019 
+  * Portal de Revistas de la Universidad Nacional de La Plata
+  *  https://revistas.unlp.edu.ar 
+  *  https://sedici.unlp.edu.ar
+  *
+  * @author gonetil
   *
   * badges plugin localization strings
   -->
  
-<locale name="en_US" full_name="U.S. English">
-  <message key="plugins.generic.badges.displayName">Altmetrics' Badges Plugin</message>
-  <message key="plugins.generic.badges.description">Add altmetric badges to article page.</message>
-  <message key="plugins.generic.badges.manager.settings.description">Badges plugin settings</message>
-  <message key="plugins.generic.badges.settings">Select which badge(s) to show</message>
-  <message key="plugins.generic.badges.manager.settings.showDimensions">Show Dimensions badge</message>
-  <message key="plugins.generic.badges.manager.settings.showAltmetric">Show Altmetric.com badge</message>
-  <message key="plugins.generic.badges.manager.settings.showPlumx">Show PlumX badge</message>
-  <message key="plugins.generic.badges.manager.settings.altmetricHideWhenEmpty">Hide altmetric badge when there are no mentions</message>
-  <message key="plugins.generic.badges.manager.settings.showBlockTitle">Metrics</message>
+<locale name="en_US" full_name="English">
+  <message key="plugins.generic.badges.displayNameBlock">HERA Block</message>
+  <message key="plugins.generic.badges.descriptionBlock">Incorporates HERA to provide information about the quality and impact of the journal in the lateral barrier</message>
+  <message key="plugins.generic.badges.displayName">HERA Module</message>
+  <message key="plugins.generic.badges.description">Incorporates HERA to provide information about the quality and impact of the academic resource in question</message>
+  <message key="plugins.generic.badges.manager.settings.description">Allows HERA to display information for each article with a DOI or for the journal if it has an ISSN (online)</message>
+  <message key="plugins.generic.badges.settings">Settings</message>
+  <message key="plugins.generic.badges.manager.settings.showBlockTitle">HERA statistics for the article</message>
+  <message key="plugins.generic.badges.manager.settings.showHera">Show HERA for articles, they must have DOI</message>
+  <message key="plugins.generic.badges.manager.settings.showHeraJournal">Show HERA for the journal, it must have an ISSN</message>
 </locale>
